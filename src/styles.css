@@ -1,1 +1,47 @@
 /* You can add global styles to this file, and also import other style files */
+.contenedor{
+   
+    
+    color:blue;
+    border-style:double;
+    height: 100%;
+  
+
+}
+.navegador{
+    
+    color: green;
+    border-style: dotted;
+
+    float: left;
+    
+
+}
+nav ul{
+    list-style-type: none;
+}
+nav ul li{
+    padding-bottom: 50px;
+
+}
+.info{
+    color: red;
+    border-style:dashed;
+    width: 40%;
+    float: right;
+
+    
+    
+}
+ 
+.footer{
+    color: orange;
+    border-style: groove;
+    margin-top: 500px;
+
+}
+.item1 { grid-area: header; }
+.item2 { grid-area: menu; }
+.item3 { grid-area: main; }
+.item4 { grid-area: right; }
+.item5 { grid-area: footer; }
